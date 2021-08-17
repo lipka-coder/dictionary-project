@@ -14,7 +14,18 @@ function App() {
         </main>
         <footer className="App-footer">
           <small>
-            Coded by Kasia Podlipska
+            <a
+              href="https://github.com/lipka-coder/weather-app-react"
+              className="github-link"
+            >
+              Open-source code 
+            </a>
+              {" "} by {" "} 
+            <a
+              href="https://www.linkedin.com/in/katarzyna-podlipska"
+              className="linkedin-link">
+                Kasia Podlipska 
+            </a>👩‍💻
           </small>
         </footer>
       </div>
