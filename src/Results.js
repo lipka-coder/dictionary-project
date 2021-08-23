@@ -5,6 +5,7 @@ export default function Results (props){
     if (props.result){
       return (
         <div className="Results">
+			<br />
 			<h2>
 				{props.result.word}
 			</h2>
