@@ -24,13 +24,21 @@ export default function Dictionary (){
     }
 
     return (
-        <div className="dictionary">
+        <div className="Dictionary">
+          <section>
+						<h1>
+							Dictionary
+						</h1>
+						<h5>
+							What word are you curious about?
+						</h5>
             <form onSubmit={searchWord}>
                 <input type="search" 
                 placeholder="Type a word..." 
                 autoFocus={true}
                 onChange={handleKyewordChange}/>
             </form>
+					</section>
           <Results result={definitions} /> 
         </div>
     )
